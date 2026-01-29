@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Nikhil Krishna Varma | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
   <header>
     <nav>
-      <h1>Nikhil Krishna Varma Portfolio</h1>
+      <h1>Nikhil Krishna Varma</h1>
       <ul>
-        <li><a href="#home">Home</a></li>
+        <li><a href="#home" class="active">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -20,6 +21,8 @@
   </header>
 
   <main>
+
+    <!-- HOME -->
     <section id="home">
       <div class="hero">
         <h1>Hi, I'm Nikhil Krishna Varma</h1>
@@ -29,38 +32,52 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about">
       <h2>About Me</h2>
       <div class="about-content">
-        <p>I'm currently learning full stack development and building this portfolio as a daily project.</p>
-        <p>Skills so far: HTML, CSS, Git/GitHub. Coming soon: JavaScript, Node.js, databases, and deployment.</p>
+        <p>
+          I'm currently learning full stack development and building this portfolio as a daily project.
+        </p>
+        <p>
+          Skills so far: HTML, CSS, Git/GitHub. Coming soon: JavaScript, Node.js, databases, and deployment.
+        </p>
+
         <ul class="skills">
+          <li>HTML & CSS</li>
           <li>Git & GitHub</li>
           <li>Responsive Design</li>
-          <li>HTML/CSS</li>
         </ul>
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects">
       <h2>Projects</h2>
-      <center>
-      <p>I have worked on Career Recommendation System and developed a website for it.</p>
-      <p>I have used NLP, BERT, SPACY frameworks in this project.</p>
-      <p>The system that I developed helps you find a best career and suitable job based on your resume.</p>
-      <p>It identifies skills and recommends you a career and suitable job when you upload your resume in my website. </p>
-      <p>It is 86% percent accurate with recommendations based on resume.</p>
-      <p>I am trying to make it more accurate and perfect.</p></center>
+      <p>
+        I have worked on a <strong>Career Recommendation System</strong> and developed a website for it.
+      </p>
+      <p>
+        Technologies used: NLP, BERT, SpaCy.
+      </p>
+      <p>
+        The system analyzes resumes, identifies skills, and recommends suitable careers and jobs.
+      </p>
+      <p>
+        Current accuracy: <strong>86%</strong>. Actively improving performance and precision.
+      </p>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact">
-      <h2>Contact</h2></section><center>
-      <p>We’ll add a contact form later.</p>
-    </section></center>
+      <h2>Contact</h2>
+      <p>Want to connect with me?</p>
+      <a href="mailto:your-email@gmail.com" class="cta-button">
+        Contact Me
+      </a>
+    </section>
+
   </main>
-  <script src="script.js"></script>
-</body>
-</html>
 
   <script src="script.js"></script>
 </body>
